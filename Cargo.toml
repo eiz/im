@@ -1,0 +1,18 @@
+[workspace]
+members = [
+    "imgui-rs/imgui",
+    "imgui-rs/imgui-sys",
+    "imgui-rs/imgui-glium-renderer",
+    "imgui-rs/imgui-glow-renderer",
+    "imgui-rs/imgui-sdl2-support",
+    "imgui-rs/imgui-winit-support",
+    "implot-rs",
+    "implot-rs/implot-sys",
+    "implot-rs/implot-sys-bindgen",
+]
+
+[patches.crates-io]
+imgui = { git = "https://github.com/eiz/imgui-rs" }
+imgui-sys = { git = "https://github.com/eiz/imgui-rs" }
+implot = { git = "https://github.com/eiz/implot-rs" }
+implot-sys = { git = "https://github.com/eiz/implot-rs" }
